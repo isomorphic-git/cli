@@ -1,0 +1,19 @@
+{
+  "name": "@isomorphic-git/cli",
+  "version": "0.0.0",
+  "description": "",
+  "bin": {
+    "isomorphic-git": "./cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "William Hilton <wmhilton@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "credential-manager-node-cli": "github:isomorphic-git/credential-manager-node-cli",
+    "isomorphic-git": "github:isomorphic-git/isomorphic-git#credentials-api",
+    "minimisted": "^2.0.0"
+  }
+}
