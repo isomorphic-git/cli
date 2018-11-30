@@ -12,8 +12,10 @@
   "author": "William Hilton <wmhilton@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "credential-manager-node-cli": "github:isomorphic-git/credential-manager-node-cli",
-    "isomorphic-git": "github:isomorphic-git/isomorphic-git#credentials-api",
-    "minimisted": "^2.0.0"
+    "@isomorphic-git/credential-manager-node-cli": "github:isomorphic-git/credential-manager-node-cli",
+    "cli-progress": "^2.1.0",
+    "isomorphic-git": "^0.40.2",
+    "minimisted": "^2.0.0",
+    "ora": "^3.0.0"
   }
 }
